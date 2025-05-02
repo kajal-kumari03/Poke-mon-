@@ -1,0 +1,29 @@
+#root {
+  max-width: 100vw;
+  
+ 
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  color: #e53e3e;
+  font-weight: bold;
+}

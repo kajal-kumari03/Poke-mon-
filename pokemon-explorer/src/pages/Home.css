@@ -1,0 +1,135 @@
+
+
+
+
+.home-container {
+  margin: 0 auto;
+ margin-top: -16px;
+  width: 95vw;
+  background-color: rgb(182, 171, 171);
+  
+}
+
+.home-title {
+  padding: 1rem;
+  background-color: #ffcb05;
+  color: #2a75bb;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.sorting-options {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+  margin-left: auto;
+
+}
+
+.sorting-options label {
+  font-size: 1.3rem; 
+  margin-left: 8rem;
+}
+.Items-per-pge{
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+  margin-right: 13rem;
+}
+.Items-per-pge label{
+  font-size: 1.3rem; 
+  
+}
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.loading-message,
+.error-message,
+.no-result-message {
+  text-align: center; 
+  font-size: 1.2rem; 
+  color: #4b5563; 
+}
+
+.pagination-controls {
+  display: flex; 
+  margin-top: 20px; 
+}
+
+.pagination-controls button {
+  padding: 10px 15px; 
+  margin : auto;
+  background-color: #3b82f6; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  padding: 9 rem;
+}
+.span{
+  font-size: larger;
+  padding: 9 rem;
+}
+.pagination-controls button:hover {
+  background-color: #0942bd; 
+}
+
+.pagination-controls button:disabled {
+  background-color: #637ca1; 
+}
+
+
+@media (min-width: 640px) {
+  .pokemon-grid {
+     grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (min-width: 1200px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+.loading-message,
+.error-message,
+.no-result-message {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+}
+
+.loading-message {
+  color: #4b5563;
+}
+
+.error-message {
+  color: #ef4444;
+}
+
+.no-result-message {
+  color: #6b7280;
+} 
+
+
+
+
+
+
+
+

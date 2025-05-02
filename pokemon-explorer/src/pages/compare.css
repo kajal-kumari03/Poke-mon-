@@ -1,0 +1,90 @@
+/* Container for the entire page */
+.p {
+ 
+  width: 100vw;
+  min-height: 7vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #c0b9b9;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Text */
+.text {
+  margin: 0;
+  padding: 15px;
+  font-size: 2rem;
+  background-color: rgb(216, 175, 122);
+  text-align: center;
+  color: #333;
+  border-radius: 8px;
+}
+
+/* Dropdown Select Container */
+.flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for both dropdowns */
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #992020;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #c29393;
+}
+
+/* Container for the comparison boxes */
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+/* Each Pokémon Card */
+.box > div {
+  background-color: #cea6a6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+
+/* Pokémon name header */
+h2 {
+  margin-top: 0;
+  text-transform: capitalize;
+  color: #444;
+}
+
+/* Pokémon image */
+img {
+  width: 120px;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Stat list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 0.95rem;
+  padding: 4px 0;
+  text-align: left;
+}

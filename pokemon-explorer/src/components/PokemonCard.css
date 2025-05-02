@@ -1,0 +1,115 @@
+.pokemon-card {
+    background-color: #fff;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .favorite-border {
+    border-color: #facc15; /* yellow-400 */
+  }
+  
+  .pokemon-image {
+    height: 128px;
+    width: 128px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  .pokemon-nam{
+    color: #f7d05e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+  }
+  
+  
+  .pokemon-id {
+    font-size: 0.875rem;
+    color: #6b7280; /* gray-600 */
+  }
+  
+  .pokemon-types {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  
+  .type-badge {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    text-transform: capitalize;
+  }
+  
+  .pokemon-details {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #374151;
+  }
+  
+  .pokemon-abilities {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .pokemon-abilities h4 {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .pokemon-actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .favorite-button {
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    background-color: #f3f4f6; /* gray-100 */
+    color: #1f2937; /* gray-800 */
+  }
+  
+  .favorite-button:hover {
+    background-color: #e5e7eb; /* gray-200 */
+  }
+  
+  .favorite-button.favorited {
+    background-color: #facc15;
+    color: white;
+  }
+  
+  .favorite-button.favorited:hover {
+    background-color: #eab308; /* yellow-500 */
+  }
+  
+  .view-link {
+    font-size: 0.875rem;
+    color: #10b981; /* green-600 */
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  }
+  

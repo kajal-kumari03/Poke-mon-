@@ -1,0 +1,30 @@
+/* Main container styles */
+.main-box{
+    width:100vw;
+    background-color: #c0b9b9;
+    margin: 0px;
+    margin-top: -32px;
+}
+.text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+    color: #444;
+  }
+  
+  /* Grid layout for cards */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  
+  /* Fallback text styling */
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+  }
+  

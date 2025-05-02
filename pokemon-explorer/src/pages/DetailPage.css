@@ -1,0 +1,71 @@
+.main{
+        width: 100vw;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+      
+}
+.detail-container {
+    text-align: center;
+    justify-content: center;
+    width: 25vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.3rem;
+    margin-left: 470px;
+    background-color: #f0c7c7;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Page title */
+  .detail-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Pokémon image */
+  .pokemon-image {
+    display: block;
+    margin: 1rem auto;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  /* Section headings */
+  .section-title {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Lists of types and stats */
+  .detail-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+  
+  .detail-list li {
+    padding: 0.4rem 0;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Loading and error messages */
+  .loading-message,
+  .error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    color: #777;
+  }
+  
